@@ -1,0 +1,36 @@
+{
+  "name": "gen-image",
+  "version": "0.1.0+codex.20260912105323",
+  "description": "Generate images from text via the Qwen (Alibaba DashScope) image API, save them locally, and return the image to the main model for display and download.",
+  "author": {
+    "name": "etimexp"
+  },
+  "license": "MIT",
+  "keywords": [
+    "image",
+    "generate",
+    "text-to-image",
+    "qwen",
+    "dashscope",
+    "\u5343\u95ee",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Gen Image",
+    "shortDescription": "\u6587\u672c\u751f\u56fe:\u5343\u95ee\u6a21\u578b,\u6839\u636e\u63cf\u8ff0\u751f\u6210\u56fe\u7247\u5e76\u8fd4\u56de\u7ed9\u4e3b\u6a21\u578b",
+    "longDescription": "gen-image \u63d2\u4ef6\u63d0\u4f9b generate_image MCP \u5de5\u5177:\u6839\u636e\u6587\u672c\u63cf\u8ff0\u8c03\u7528\u6587\u751f\u56fe\u63a5\u53e3,\u9ed8\u8ba4\u4f7f\u7528\u5343\u95ee\u56fe\u50cf\u6a21\u578b qwen-image-plus(\u963f\u91cc\u4e91\u767e\u70bc DashScope \u539f\u751f\u63a5\u53e3,\u6a21\u578b\u53ef\u5207\u6362\u4e3a qwen-image / qwen-image-3.0 / qwen-image-3.0-pro),\u4e5f\u517c\u5bb9\u667a\u8c31 GLM \u7b49 OpenAI \u517c\u5bb9\u7aef\u70b9\u3002\u751f\u6210\u7684\u56fe\u7247\u4fdd\u5b58\u5230\u672c\u5730\u8f93\u51fa\u76ee\u5f55,\u5e76\u5c06\u56fe\u7247(\u5185\u5d4c)+ \u672c\u5730\u8def\u5f84\u4e00\u8d77\u8fd4\u56de\u7ed9\u4e3b\u6a21\u578b,\u4e3b\u6a21\u578b\u53ef\u76f4\u63a5\u5c55\u793a\u5e76\u4f9b\u7528\u6237\u4e0b\u8f7d\u3002",
+    "developerName": "etimexp",
+    "category": "Productivity",
+    "capabilities": [
+      "Generate"
+    ],
+    "defaultPrompt": [
+      "\u7528 generate_image(\u5343\u95ee\u6a21\u578b)\u751f\u6210\u4e00\u5f20\u5173\u4e8e\u57ce\u5e02\u5929\u9645\u7ebf\u7684\u56fe\u7247\u3002",
+      "\u5e2e\u6211\u7528\u5343\u95ee\u751f\u6210\u4e00\u5f20 PPT \u914d\u56fe:\u4eba\u5de5\u667a\u80fd\u4e0e\u7b97\u529b\u53d1\u5c55\u8d8b\u52bf\u3002",
+      "\u628a\u8fd9\u53e5\u8bdd\u753b\u51fa\u6765:\u4e00\u53ea\u6234\u7740\u5b87\u822a\u5458\u5934\u76d4\u7684\u6a58\u732b\u3002"
+    ],
+    "brandColor": "#3B82F6"
+  }
+}

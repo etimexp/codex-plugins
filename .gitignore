@@ -1,0 +1,12 @@
+# 本地密钥配置：每个插件目录下的 config.env 都不入库
+config.env
+**/config.env
+
+# Python 缓存
+__pycache__/
+**/__pycache__/
+*.pyc
+
+# 插件运行产物
+generated/
+**/generated/

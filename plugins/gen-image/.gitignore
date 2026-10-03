@@ -1,0 +1,4 @@
+config.env
+generated/
+__pycache__/
+*.pyc

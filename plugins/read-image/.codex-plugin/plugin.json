@@ -1,0 +1,33 @@
+{
+  "name": "read-image",
+  "version": "0.1.0+codex.20260912105326",
+  "description": "Read images with a vision model: base64-encode the image, call a pure vision model, and return the description to the main model.",
+  "author": {
+    "name": "etimexp"
+  },
+  "license": "MIT",
+  "keywords": [
+    "vision",
+    "image",
+    "base64",
+    "ocr",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Read Image",
+    "shortDescription": "\u7528\u7eaf\u89c6\u89c9\u6a21\u578b\u8bfb\u53d6\u56fe\u7247\u5e76\u8fd4\u56de\u6587\u5b57\u63cf\u8ff0",
+    "longDescription": "read-image \u63d2\u4ef6\u628a\u672c\u5730\u56fe\u7247 base64 \u7f16\u7801\u540e\u53d1\u9001\u7ed9\u7eaf\u89c6\u89c9\u6a21\u578b\uff08\u9ed8\u8ba4 gpt-5.6-terra\uff0c\u53ef\u7528 READ_IMAGE_MODEL \u6216\u5de5\u5177\u53c2\u6570\u8986\u76d6\uff09\uff0c\u518d\u628a\u6a21\u578b\u7684\u6587\u5b57\u63cf\u8ff0\u8fd4\u56de\u7ed9\u4e3b\u6a21\u578b\u4f7f\u7528\u3002\u9002\u7528\u4e8e\u770b\u56fe\u3001OCR\u3001\u622a\u56fe\u5206\u6790\u7b49\u573a\u666f\u3002",
+    "developerName": "etimexp",
+    "category": "Productivity",
+    "capabilities": [
+      "Read"
+    ],
+    "defaultPrompt": [
+      "\u7528 read_image \u5de5\u5177\u8bfb\u53d6\u8fd9\u5f20\u56fe\u7247\u5e76\u544a\u8bc9\u6211\u5185\u5bb9\u3002",
+      "\u5e2e\u6211\u63d0\u53d6\u8fd9\u5f20\u622a\u56fe\u91cc\u7684\u6240\u6709\u6587\u5b57\u3002"
+    ],
+    "brandColor": "#3B82F6"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "gen-image": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        ".\\scripts\\launch_mcp.cmd"
+      ],
+      "cwd": ".",
+      "env_vars": [
+        "DASHSCOPE_API_KEY",
+        "ZHIPU_API_KEY",
+        "GEN_IMAGE_API_KEY",
+        "OPENAI_API_KEY",
+        "GEN_IMAGE_MODEL",
+        "GEN_IMAGE_BASE_URL",
+        "GEN_IMAGE_OUTPUT_DIR",
+        "GEN_IMAGE_SIZE",
+        "GEN_IMAGE_TIMEOUT"
+      ],
+      "tool_timeout_sec": 300
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "read-image": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        ".\\scripts\\launch_mcp.cmd"
+      ],
+      "cwd": ".",
+      "env_vars": [
+        "OPENAI_API_KEY",
+        "OPENAI_BASE_URL",
+        "READ_IMAGE_MODEL",
+        "READ_IMAGE_API_STYLE",
+        "READ_IMAGE_IMAGE_URL_FORMAT",
+        "READ_IMAGE_MAX_TOKENS",
+        "READ_IMAGE_PROMPT",
+        "READ_IMAGE_TIMEOUT",
+        "READ_IMAGE_THINKING"
+      ],
+      "tool_timeout_sec": 300
+    }
+  }
+}
